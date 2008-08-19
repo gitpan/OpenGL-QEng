@@ -1,0 +1,7 @@
+
+use Math::Trig;
+use OpenGL ':all';
+use OpenGL::Image;
+use Time::HiRes qw(gettimeofday tv_interval);
+
+Image::Magick module; 6.3.5 or newer is recommended. 
