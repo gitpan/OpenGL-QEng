@@ -1,7 +1,7 @@
 eval 'exec perl -S $0 ${1+"$@"}' # -*-Perl-*-
   if $running_under_some_shell;
 
-###  $Id: quest 427 2008-08-19 18:40:46Z duncan $
+###  $Id: quest 431 2008-08-20 13:16:12Z overmars $
 
 package main;
 
@@ -18,7 +18,7 @@ use OpenGL::QEng::GUIWindow;
 
 use base qw/OpenGL::QEng::OUtil/;
 
-our $VERSION = 0.25; #program version
+our $VERSION = 0.26; #program version
 
 ### main execution found below all the subs -----vvv----- ###
 

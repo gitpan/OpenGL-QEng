@@ -10,9 +10,10 @@ requires('Image::Magick' => '6.3.5');
 requires('File::ShareDir');
 test_requires('Test::More' => '0.47');
 
-no_index( directory => qw< debian doc examples share lib Attic > );
+no_index( directory => qw< QEng auto html Attic > );
 
-all_from('quest');
+version_from('quest');
+all_from('lib/Games/Quest3D.pm');
 
 install_script('quest');
 install_share('maps');

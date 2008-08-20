@@ -122,7 +122,8 @@ lib/auto/Games/Quest3D/maps/startMap.txt
 lib/auto/Games/Quest3D/maps/t.txt
 lib/auto/Games/Quest3D/maps/tunnel1.txt
 lib/auto/Games/Quest3D/maps/tunnel2.txt
-lib/Games/Quest3D.pod
+lib/Games/Quest3D.pm
+lib/OpenGL/QEng.pm
 lib/OpenGL/QEng/ArchWall.pm
 lib/OpenGL/QEng/Bank.pm
 lib/OpenGL/QEng/BarDoor.pm
@@ -184,7 +185,6 @@ mainPage.lox
 Makefile.PL
 MANIFEST			This list of files
 META.yml
-OpenGL-QEng-0.25.tar.gz
 quest
 README
 REQUIRES

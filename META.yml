@@ -1,6 +1,7 @@
 ---
 abstract: ~
-author: ~
+author:
+  - 'John D. Overmars <F<overmars@jdovermarsa.com>>,'
 build_requires:
   ExtUtils::MakeMaker: 6.11
   Test::More: 0.47
@@ -13,11 +14,9 @@ meta-spec:
 name: OpenGL-QEng
 no_index:
   directory:
-    - debian
-    - doc
-    - examples
-    - share
-    - lib
+    - QEng
+    - auto
+    - html
     - Attic
     - inc
     - t
@@ -27,4 +26,4 @@ requires:
   Math::Trig: 0
   OpenGL: 0.54
   OpenGL::Image: 0
-version: 0.25
+version: 0.26
