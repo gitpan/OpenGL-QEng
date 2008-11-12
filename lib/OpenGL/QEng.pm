@@ -13,14 +13,16 @@ use warnings;
 QEng -- the 3D rendering engine for Games::Quest3D.
 
 =head1 DEPENDENCIES
-   
+
     * OpenGL ':all'
-   
+
     * OpenGL::Image
-      
+
     * Math::Trig
-   
+
     * Image::Magick module; 6.3.5 or newer is recommended.
+
+    * File::ShareDir
 
 =head1 AUTHORS
 

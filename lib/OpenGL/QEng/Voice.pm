@@ -1,4 +1,4 @@
-#$Id: Voice.pm 424 2008-08-19 16:27:43Z duncan $
+#$Id: Voice.pm 434 2008-11-06 21:14:40Z overmars $
 
 ####------------------------------------------
 ##@file
@@ -32,6 +32,7 @@ sub new { die join ':', caller;
  sub init_class {
    return if ($class_is_ready);
    $class_is_ready = 1;
+   return;
 
    #Audio::Ao::initialize_ao();
 
